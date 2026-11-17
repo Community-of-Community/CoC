@@ -5,53 +5,33 @@
   </picture>
   <h1>Community of Community</h1>
   <p><strong>Make friends and Shared possibilities.</strong></p>
-  <p>Create space. Build connections.<br>Start small. Learn together.</p>
-  <p>A public-benefit, non-commercial collaboration space — by communities, for communities.</p>
+  <p>A public-benefit, non-commercial space connecting independent communities.</p>
   <p>
-    <a href="https://github.com/WayneJin0918/Community-of-Community/issues">Issues</a> ·
-    <a href="https://github.com/WayneJin0918/Community-of-Community/discussions">Discussions</a> ·
-    <a href="mailto:wayneyjin@gmail.com">Contact</a> ·
-    <a href="https://waynejin0918.github.io/Community-of-Community/">Website</a>
+    <a href="https://waynejin0918.github.io/Community-of-Community-Website/"><img src="https://img.shields.io/badge/Website-CoC-00796b?style=flat" alt="Website"></a>
+    <a href="https://github.com/WayneJin0918/Community-of-Community/issues"><img src="https://img.shields.io/badge/Issues-Get%20involved-24292f?style=flat&amp;logo=github" alt="Issues"></a>
+    <a href="https://github.com/WayneJin0918/Community-of-Community/discussions"><img src="https://img.shields.io/badge/Discussions-Connect-24292f?style=flat&amp;logo=github" alt="Discussions"></a>
+    <a href="mailto:wayneyjin@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-d97757?style=flat" alt="Contact"></a>
   </p>
   <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
 </div>
 
 ## What is CoC?
 
-**Community of Community (CoC)** creates space for community founders, organizers, and builders to connect, exchange experience, and explore collaboration for shared benefit.
+**Community of Community (CoC)** brings community founders, organizers, and builders together to make friends, exchange experience, and explore possibilities for shared benefit.
 
-Each community brings its own purpose, people, and strengths. CoC helps those strengths meet: less duplicated effort, more thoughtful connections, and practical ways to support one another. **We connect communities; we do not replace them or act as a commercial intermediary.**
+Each community has its own purpose, people, and strengths. We create common ground for those strengths to meet through shared learning, thoughtful introductions, and small collaborations. **We connect communities; we do not replace them.**
 
 ## Scope
 
-| In scope | Out of scope |
-| --- | --- |
-| Founder and organizer exchanges; shared learning. | Running, absorbing, or speaking on behalf of member communities. |
-| Consent-based introductions and knowledge or resource sharing. | Commercial brokerage, paid lead generation, or selling member access. |
-| Small joint initiatives, mutual support, and opportunities for young builders. | Mandatory commitments, guaranteed funding or reach, or sharing private materials without permission. |
+- **Connect and learn:** exchange experience among community founders and organizers.
+- **Share with consent:** introduce people and share knowledge or resources with permission.
+- **Build together:** explore small joint initiatives, mutual support, and opportunities for young builders.
 
-## How we collaborate
-
-We are in an **early-stage, relationship-led start**: begin with trusted introductions, welcome new perspectives, and build confidence through modest, useful collaborations.
-
-1. **Introduce your work.** Share your community or project, what you can offer, and what you are looking for.
-2. **Find common ground.** Explore a relevant connection without pressure to participate.
-3. **Agree on a small initiative.** Clarify roles, time commitments, attribution, and what may be shared.
-4. **Learn and share back.** Reflect together and share useful experience with permission.
-
-## Goals
-
-| Direction | What we hope to enable |
-| --- | --- |
-| **Connect founders** | Help early-stage community founders exchange experience, receive feedback, and discover collaboration opportunities. |
-| **Amplify with experienced partners** | Invite established community partners to share knowledge and extend the reach of worthwhile, public-benefit work. |
-| **Support young builders** | Offer emerging builders meaningful roles, mentorship, and opportunities to develop work and visibility through real collaboration. |
-
-These are directions we are working toward, not promises of outcomes already delivered.
+Communities remain independent and participation is voluntary. CoC does not run member communities, act as a commercial broker, or promise funding or reach.
 
 ## Founding Members
 
-Our Founding Members help create this space for public-benefit collaboration. Each remains independent; participation is voluntary and cooperation begins with specific, mutually agreed initiatives.
+Our Founding Members help create this space for public-benefit collaboration. Each remains independent; cooperation starts with specific, mutually agreed initiatives.
 
 - [ResearchBoost Agent (RBA)](https://ai4ai-for-anything.github.io/)
 - [NextTransformer](https://interactive-active-ai.github.io/NextTransformer/)
@@ -60,20 +40,15 @@ Our Founding Members help create this space for public-benefit collaboration. Ea
 - [OpenWAM](https://openwam-official.github.io/)
 - [starVLA](https://github.com/starVLA/starVLA)
 
-## Get involved / Contact
+## Get involved
 
-- **[Issues](https://github.com/WayneJin0918/Community-of-Community/issues):** propose a concrete collaboration or introduce your community using the templates.
-- **[Discussions](https://github.com/WayneJin0918/Community-of-Community/discussions):** exchange ideas, ask questions, and explore shared interests.
-- **Email:** [wayneyjin@gmail.com](mailto:wayneyjin@gmail.com).
-- **[Collaboration Intro](https://waynejin0918.github.io/Community-of-Community/#collaboration-form):** open the folded form on the site and send your introduction. The site defaults to English and offers a Chinese language switch.
-- **WeChat:** available on request. The site's `WECHAT_ID` setting remains `on request` until confirmed.
+- **[Website](https://waynejin0918.github.io/Community-of-Community-Website/):** explore CoC and [introduce your community](https://waynejin0918.github.io/Community-of-Community-Website/#collaboration-form).
+- **[Issues](https://github.com/WayneJin0918/Community-of-Community/issues):** introduce your community or propose a concrete collaboration using the templates.
+- **[Discussions](https://github.com/WayneJin0918/Community-of-Community/discussions):** ask questions, exchange ideas, and find common interests.
+- **[Contact](mailto:wayneyjin@gmail.com):** email us at wayneyjin@gmail.com; WeChat is available on request.
 
-GitHub Issues and Discussions are public. Use email or the form for personal contact details, and do not include confidential information.
+Issues and Discussions are public. Use email or the website form for personal contact details, and do not share confidential information. Respect each other's time, consent, attribution, and boundaries.
 
-## Community notes
+---
 
-CoC is a public-benefit, non-commercial initiative. Member communities retain their independence and decision-making authority. Respect people's time, consent, attribution, and boundaries; no one is required to share resources or participate.
-
-**Form setup:** the form sends introductions to `wayneyjin@gmail.com` via FormSubmit. On first use, submit a test introduction, open FormSubmit's confirmation email in that inbox (check spam), and activate the form before testing delivery again. An accepted request does not by itself confirm email delivery. If AJAX activation is unavailable, make the initial submission with JavaScript disabled. No account or build step is required.
-
-Optional developer view: see [`scripts/preview.sh`](scripts/preview.sh).
+**Note:** We plan to move to the GitHub Organization `Community-of-Community`, with `Community-of-Community` as the main repository and `Community-of-Community.github.io` as the website repository, following the [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM website](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io) structure. For now, both public repositories are hosted under the personal account `WayneJin0918`; the [website repository](https://github.com/WayneJin0918/Community-of-Community-Website) is maintained separately.
