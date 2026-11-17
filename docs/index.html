@@ -21,7 +21,7 @@
       <nav class="primary-nav" aria-label="Main navigation" data-i18n-aria="nav.label">
         <a href="#scope" data-i18n="nav.scope">Our scope</a>
         <a href="#members" data-i18n="nav.members">Founding Members</a>
-        <a class="nav-contact" href="#collaboration" data-i18n="nav.contact">Get involved ↗</a>
+        <a class="nav-contact" href="#collaboration-form" data-i18n="nav.contact">Get involved ↗</a>
       </nav>
       <div class="language-switch" role="group" aria-label="Language" data-i18n-aria="language.label" hidden>
         <button type="button" data-language="en" aria-pressed="true" lang="en">EN</button>
@@ -36,7 +36,7 @@
           <h1 id="hero-title"><span data-i18n="hero.titleOne">Make friends</span><span class="warm-underline" data-i18n="hero.titleTwo">and Shared possibilities.</span></h1>
           <p class="hero-description" data-i18n="hero.description">A public-benefit, non-commercial space for community founders, organizers, and builders to connect, share experience, and create something meaningful together.</p>
           <div class="hero-actions">
-            <a class="button button-dark" href="#collaboration"><span data-i18n="hero.action">Introduce your community</span><span aria-hidden="true">↗</span></a>
+            <a class="button button-dark" href="#collaboration-form"><span data-i18n="hero.action">Introduce your community</span><span aria-hidden="true">↗</span></a>
             <a class="text-link" href="https://github.com/WayneJin0918/Community-of-Community/discussions" data-i18n="hero.discussions">Join the conversation</a>
           </div>
           <p class="hero-footnote" data-i18n="hero.note">Create space. Build connections.</p>
@@ -141,30 +141,44 @@
               <a href="mailto:wayneyjin@gmail.com"><span data-i18n="contact.email">Contact by email</span><span>wayneyjin@gmail.com ↗</span></a>
             </div>
             <p class="wechat-note" data-wechat data-i18n="contact.wechat">WeChat available on request</p>
-            <p class="contact-boundary" data-i18n="contact.boundary">GitHub conversations are shared with people who have repository access. Please use email or this form for personal contact details.</p>
+            <p class="contact-boundary" data-i18n="contact.boundary">GitHub Issues and Discussions are public. Prefer email or this form for personal contact details.</p>
           </div>
-          <form class="intro-form" id="intro-form" action="https://formsubmit.co/wayneyjin@gmail.com" method="POST" aria-labelledby="form-title" aria-describedby="form-privacy">
-            <div class="form-heading"><h3 id="form-title" data-i18n="form.title">Collaboration Intro</h3><p data-i18n="form.required">* Required fields</p></div>
-            <input type="hidden" name="_subject" value="CoC — Collaboration Intro">
-            <input type="hidden" name="_template" value="table">
-            <input type="hidden" name="_next" value="https://waynejin0918.github.io/Community-of-Community/?submitted=1">
-            <div class="honeypot" aria-hidden="true"><label for="form-honey">Leave this field empty</label><input type="text" id="form-honey" name="_honey" tabindex="-1" autocomplete="off"></div>
-            <div class="form-row">
-              <div class="form-field"><label for="intro-name"><span data-i18n="form.name">Name / preferred name</span> <span aria-hidden="true">*</span></label><input id="intro-name" name="name" autocomplete="name" required maxlength="120"></div>
-              <div class="form-field"><label for="intro-community"><span data-i18n="form.community">Community or project</span> <span aria-hidden="true">*</span></label><input id="intro-community" name="community" autocomplete="organization" required maxlength="200"></div>
-            </div>
-            <div class="form-field"><label for="intro-offer"><span data-i18n="form.offer">What can you offer?</span> <span aria-hidden="true">*</span></label><textarea id="intro-offer" name="offer" required maxlength="3000" rows="3" placeholder="Experience, knowledge, resources, or a shared initiative…" data-i18n-placeholder="form.offerPlaceholder"></textarea></div>
-            <div class="form-field"><label for="intro-seeking"><span data-i18n="form.seeking">What are you looking for?</span> <span aria-hidden="true">*</span></label><textarea id="intro-seeking" name="seeking" required maxlength="3000" rows="3" placeholder="A conversation, feedback, collaborators, or support…" data-i18n-placeholder="form.seekingPlaceholder"></textarea></div>
-            <div class="form-row">
-              <div class="form-field"><label for="intro-email"><span data-i18n="form.email">Contact email</span> <span aria-hidden="true">*</span></label><input type="email" id="intro-email" name="email" autocomplete="email" required maxlength="254"></div>
-              <div class="form-field"><label for="intro-wechat"><span data-i18n="form.wechat">WeChat</span> <span class="optional" data-i18n="form.optional">(optional)</span></label><input id="intro-wechat" name="wechat" maxlength="120" autocomplete="off"></div>
-            </div>
-            <div class="form-field"><label for="intro-notes"><span data-i18n="form.notes">Additional notes</span> <span class="optional" data-i18n="form.optional">(optional)</span></label><textarea id="intro-notes" name="notes" maxlength="3000" rows="2"></textarea></div>
-            <p class="form-privacy" id="form-privacy" data-i18n="form.privacy">Submitting sends these details to CoC via FormSubmit. Please share only information you have permission to share, and do not include confidential material.</p>
-            <button class="button button-dark submit-button" type="submit"><span data-i18n="form.submit" id="submit-label">Send introduction</span><span aria-hidden="true">↗</span></button>
-            <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
-            <noscript><p class="form-privacy">You can submit without JavaScript. FormSubmit will open a confirmation or thank-you page.</p></noscript>
-          </form>
+          <details class="intro-form-panel" id="collaboration-form">
+            <summary class="form-summary">
+              <span class="form-summary-copy">
+                <span class="form-summary-kicker" data-i18n="form.summaryKicker">Email introduction</span>
+                <strong id="form-title" data-i18n="form.summaryTitle">Collaboration Intro</strong>
+                <span class="form-summary-hint" data-i18n="form.summaryHint">Open the form to share what you build and what you are looking for. It reaches wayneyjin@gmail.com.</span>
+              </span>
+              <span class="form-summary-cta">
+                <span class="form-summary-open" data-i18n="form.summaryOpen">Open form</span>
+                <span class="form-summary-close" data-i18n="form.summaryClose">Close</span>
+                <span aria-hidden="true">↗</span>
+              </span>
+            </summary>
+            <form class="intro-form" id="intro-form" action="https://formsubmit.co/wayneyjin@gmail.com" method="POST" aria-describedby="form-privacy">
+              <div class="form-heading"><p data-i18n="form.required">* Required fields</p></div>
+              <input type="hidden" name="_subject" value="CoC — Collaboration Intro">
+              <input type="hidden" name="_template" value="table">
+              <input type="hidden" name="_next" value="https://waynejin0918.github.io/Community-of-Community/?submitted=1#collaboration-form">
+              <div class="honeypot" aria-hidden="true"><label for="form-honey">Leave this field empty</label><input type="text" id="form-honey" name="_honey" tabindex="-1" autocomplete="off"></div>
+              <div class="form-row">
+                <div class="form-field"><label for="intro-name"><span data-i18n="form.name">Name / preferred name</span> <span aria-hidden="true">*</span></label><input id="intro-name" name="name" autocomplete="name" required maxlength="120"></div>
+                <div class="form-field"><label for="intro-community"><span data-i18n="form.community">Community or project</span> <span aria-hidden="true">*</span></label><input id="intro-community" name="community" autocomplete="organization" required maxlength="200"></div>
+              </div>
+              <div class="form-field"><label for="intro-offer"><span data-i18n="form.offer">What can you offer?</span> <span aria-hidden="true">*</span></label><textarea id="intro-offer" name="offer" required maxlength="3000" rows="3" placeholder="Experience, knowledge, resources, or a shared initiative…" data-i18n-placeholder="form.offerPlaceholder"></textarea></div>
+              <div class="form-field"><label for="intro-seeking"><span data-i18n="form.seeking">What are you looking for?</span> <span aria-hidden="true">*</span></label><textarea id="intro-seeking" name="seeking" required maxlength="3000" rows="3" placeholder="A conversation, feedback, collaborators, or support…" data-i18n-placeholder="form.seekingPlaceholder"></textarea></div>
+              <div class="form-row">
+                <div class="form-field"><label for="intro-email"><span data-i18n="form.email">Contact email</span> <span aria-hidden="true">*</span></label><input type="email" id="intro-email" name="email" autocomplete="email" required maxlength="254"></div>
+                <div class="form-field"><label for="intro-wechat"><span data-i18n="form.wechat">WeChat</span> <span class="optional" data-i18n="form.optional">(optional)</span></label><input id="intro-wechat" name="wechat" maxlength="120" autocomplete="off"></div>
+              </div>
+              <div class="form-field"><label for="intro-notes"><span data-i18n="form.notes">Additional notes</span> <span class="optional" data-i18n="form.optional">(optional)</span></label><textarea id="intro-notes" name="notes" maxlength="3000" rows="2"></textarea></div>
+              <p class="form-privacy" id="form-privacy" data-i18n="form.privacy">Submitting sends these details to CoC via FormSubmit. Please share only information you have permission to share, and do not include confidential material.</p>
+              <button class="button button-dark submit-button" type="submit"><span data-i18n="form.submit" id="submit-label">Send introduction</span><span aria-hidden="true">↗</span></button>
+              <p class="form-status" id="form-status" role="status" aria-live="polite" aria-atomic="true" tabindex="-1"></p>
+              <noscript><p class="form-privacy">You can submit without JavaScript. FormSubmit will open a confirmation or thank-you page.</p></noscript>
+            </form>
+          </details>
         </div>
       </section>
     </main>

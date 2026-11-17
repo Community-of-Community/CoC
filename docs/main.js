@@ -76,6 +76,11 @@ const translations = {
     "contact.wechatId": "WeChat: {id}",
     "contact.boundary": "GitHub Issues and Discussions are public. Prefer email or this form for personal contact details.",
     "form.title": "Collaboration Intro",
+    "form.summaryKicker": "Email introduction",
+    "form.summaryTitle": "Collaboration Intro",
+    "form.summaryHint": "Open the form to share what you build and what you are looking for. It reaches wayneyjin@gmail.com.",
+    "form.summaryOpen": "Open form",
+    "form.summaryClose": "Close",
     "form.required": "* Required fields",
     "form.name": "Name / preferred name",
     "form.community": "Community or project",
@@ -172,6 +177,11 @@ const translations = {
     "contact.wechatId": "微信：{id}",
     "contact.boundary": "GitHub Issues 与 Discussions 为公开内容。个人联系方式请优先通过邮箱或本表单提供。",
     "form.title": "合作介绍 / Collaboration Intro",
+    "form.summaryKicker": "邮件介绍",
+    "form.summaryTitle": "合作介绍",
+    "form.summaryHint": "点开表单，介绍你在做的事与希望寻求的连接。提交后将发送至 wayneyjin@gmail.com。",
+    "form.summaryOpen": "打开表单",
+    "form.summaryClose": "收起",
     "form.required": "* 为必填项",
     "form.name": "姓名 / 称呼",
     "form.community": "社区或项目",
@@ -198,11 +208,22 @@ const translations = {
 };
 
 const form = document.getElementById("intro-form");
+const formPanel = document.getElementById("collaboration-form");
 const statusMessage = document.getElementById("form-status");
 const submitButton = form.querySelector('button[type="submit"]');
 const submitLabel = document.getElementById("submit-label");
 let currentLanguage = "en";
 let formState = "idle";
+
+function openCollaborationForm({ focusFirstField = false } = {}) {
+  if (!formPanel) return;
+  formPanel.open = true;
+  if (focusFirstField) {
+    window.requestAnimationFrame(() => {
+      document.getElementById("intro-name")?.focus({ preventScroll: true });
+    });
+  }
+}
 
 function translate(key) {
   return translations[currentLanguage][key] ?? translations.en[key] ?? key;
@@ -280,18 +301,28 @@ if (["http:", "https:"].includes(window.location.protocol)) {
   const nextUrl = new URL(window.location.href);
   nextUrl.search = "";
   nextUrl.searchParams.set("submitted", "1");
-  nextUrl.hash = "collaboration";
+  nextUrl.hash = "collaboration-form";
   form.elements.namedItem("_next").value = nextUrl.href;
 }
 
 const returnUrl = new URL(window.location.href);
+const shouldOpenForm = returnUrl.searchParams.get("submitted") === "1" || returnUrl.hash === "#collaboration-form";
+if (shouldOpenForm) openCollaborationForm({ focusFirstField: returnUrl.hash === "#collaboration-form" });
+
 if (returnUrl.searchParams.get("submitted") === "1") {
   setFormState("success");
   returnUrl.searchParams.delete("submitted");
+  returnUrl.hash = "collaboration-form";
   try {
     window.history.replaceState(null, "", returnUrl.href);
   } catch {}
 }
+
+window.addEventListener("hashchange", () => {
+  if (window.location.hash === "#collaboration-form") {
+    openCollaborationForm({ focusFirstField: true });
+  }
+});
 
 form.addEventListener("invalid", (event) => {
   event.target.setAttribute("aria-invalid", "true");
