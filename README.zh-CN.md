@@ -51,4 +51,4 @@ Issues 与 Discussions 为公开内容。个人联系方式请通过邮箱或网
 
 ---
 
-**说明：** 计划迁移至 GitHub Organization `Community-of-Community`，以 `Community-of-Community` 为主仓、`Community-of-Community.github.io` 为网站仓，对齐 [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM 网站仓](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io) 的结构。目前暂由个人账号 `WayneJin0918` 托管两个公开仓库；[网站仓](https://github.com/Community-of-Community/Community-of-Community-Website) 独立维护。
+**组织：** 现由 [`Community-of-Community`](https://github.com/Community-of-Community) 托管；本仓库为简介入口，网站仓为 [`Community-of-Community.github.io`](https://github.com/Community-of-Community/Community-of-Community.github.io)，结构对齐 [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM 网站仓](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io)。

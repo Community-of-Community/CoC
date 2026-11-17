@@ -51,4 +51,4 @@ Issues and Discussions are public. Use email or the website form for personal co
 
 ---
 
-**Note:** We plan to move to the GitHub Organization `Community-of-Community`, with `Community-of-Community` as the main repository and `Community-of-Community.github.io` as the website repository, following the [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM website](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io) structure. For now, both public repositories are hosted under the personal account `WayneJin0918`; the [website repository](https://github.com/Community-of-Community/Community-of-Community-Website) is maintained separately.
+**Organization:** hosted under [`Community-of-Community`](https://github.com/Community-of-Community), with this repository as the introduction hub and [`Community-of-Community.github.io`](https://github.com/Community-of-Community/Community-of-Community.github.io) as the project website — following the [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM website](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io) layout.
