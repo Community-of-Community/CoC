@@ -53,7 +53,7 @@ These are directions we are working toward, not promises of outcomes already del
 
 Our Founding Members help create this space for public-benefit collaboration. Each remains independent; participation is voluntary and cooperation begins with specific, mutually agreed initiatives.
 
-- [AI4AI for Anything](https://ai4ai-for-anything.github.io/)
+- [ResearchBoost Agent (RBA)](https://ai4ai-for-anything.github.io/)
 - [NextTransformer](https://interactive-active-ai.github.io/NextTransformer/)
 - [LMMs-Lab](https://www.lmms-lab.com/)
 - [Lumina Embodied](https://lumina-embodied.ai/)

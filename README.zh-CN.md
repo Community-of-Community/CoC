@@ -53,7 +53,7 @@
 
 创始成员共同支持公益协作，为各社区创造连接与合作空间。各方保持独立，自愿参与，从具体且经共同确认的事项开始合作。
 
-- [AI4AI for Anything](https://ai4ai-for-anything.github.io/)
+- [ResearchBoost Agent (RBA)](https://ai4ai-for-anything.github.io/)
 - [NextTransformer](https://interactive-active-ai.github.io/NextTransformer/)
 - [LMMs-Lab](https://www.lmms-lab.com/)
 - [Lumina Embodied](https://lumina-embodied.ai/)
