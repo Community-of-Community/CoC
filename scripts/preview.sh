@@ -28,8 +28,8 @@ trap cleanup EXIT
 trap 'exit 130' INT
 trap 'exit 143' TERM
 
-cp -R -- "$project_root/site/." "$preview_dir/"
-# Ensure logos exist even if site/assets is incomplete.
+cp -R -- "$project_root/docs/." "$preview_dir/"
+# Ensure logos exist even if docs/assets is incomplete.
 mkdir -p -- "$preview_dir/assets"
 cp -f -- "$project_root/assets/coc-logo.png" "$project_root/assets/coc-logo.jpg" "$preview_dir/assets/" 2>/dev/null || true
 
