@@ -65,7 +65,7 @@ Our Founding Members help create this space for public-benefit collaboration. Ea
 - **[Issues](https://github.com/WayneJin0918/Community-of-Community/issues):** propose a concrete collaboration or introduce your community using the templates.
 - **[Discussions](https://github.com/WayneJin0918/Community-of-Community/discussions):** exchange ideas, ask questions, and explore shared interests.
 - **Email:** [wayneyjin@gmail.com](mailto:wayneyjin@gmail.com).
-- **[Collaboration Intro](https://waynejin0918.github.io/Community-of-Community/#collaboration):** send your introduction through the site's form. The site defaults to English and offers a Chinese language switch.
+- **[Collaboration Intro](https://waynejin0918.github.io/Community-of-Community/#collaboration-form):** open the folded form on the site and send your introduction. The site defaults to English and offers a Chinese language switch.
 - **WeChat:** available on request. The site's `WECHAT_ID` setting remains `on request` until confirmed.
 
 GitHub Issues and Discussions are public. Use email or the form for personal contact details, and do not include confidential information.

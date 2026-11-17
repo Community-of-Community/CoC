@@ -65,7 +65,7 @@
 - **[Issues](https://github.com/WayneJin0918/Community-of-Community/issues)：** 使用模板介绍社区，或提出具体合作建议。
 - **[Discussions](https://github.com/WayneJin0918/Community-of-Community/discussions)：** 交流想法、提出问题，探讨共同关注的方向。
 - **邮箱：** [wayneyjin@gmail.com](mailto:wayneyjin@gmail.com)。
-- **[合作介绍表单](https://waynejin0918.github.io/Community-of-Community/#collaboration)：** 通过主页提交介绍；主页默认英文，可切换为中文。
+- **[合作介绍表单](https://waynejin0918.github.io/Community-of-Community/#collaboration-form)：** 打开主页折叠表单并提交介绍；主页默认英文，可切换为中文。
 - **微信：** 联系方式可按需提供；主页的 `WECHAT_ID` 在确认前保持为 `on request`。
 
 GitHub Issues 与 Discussions 为公开内容。个人联系方式请通过邮箱或表单提供，请勿提交机密信息。
