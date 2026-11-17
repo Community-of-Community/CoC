@@ -4,7 +4,7 @@
     <img src="assets/coc-logo.jpg" width="180" height="180" alt="CoC：独立社区围绕共同篝火建立连接">
   </picture>
   <h1>Community of Community</h1>
-  <p><strong>社区保持独立。协作拓展可能。</strong></p>
+  <p><strong>结交朋友，共享可能。</strong></p>
   <p>为交流创造空间，为合作建立连接。<br>从具体协作起步，共同积累经验。</p>
   <p>由社区共同参与、服务社区的公益协作空间。</p>
   <p>

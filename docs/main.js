@@ -4,7 +4,7 @@ const FORM_TIMEOUT_MS = 20000;
 
 const translations = {
   en: {
-    "page.title": "Community of Community — Independent communities. Shared possibilities.",
+    "page.title": "Community of Community — Make friends and Shared possibilities.",
     "page.description": "Community of Community (CoC) is a public-benefit, non-commercial space connecting independent communities through shared learning and collaboration.",
     skip: "Skip to content",
     "nav.label": "Main navigation",
@@ -13,8 +13,8 @@ const translations = {
     "nav.contact": "Get involved ↗",
     "language.label": "Language",
     "hero.eyebrow": "By communities, for communities",
-    "hero.titleOne": "Independent communities.",
-    "hero.titleTwo": "Shared possibilities.",
+    "hero.titleOne": "Make friends",
+    "hero.titleTwo": "and Shared possibilities.",
     "hero.description": "A public-benefit, non-commercial space for community founders, organizers, and builders to connect, share experience, and create something meaningful together.",
     "hero.action": "Introduce your community",
     "hero.discussions": "Join the conversation",
@@ -100,7 +100,7 @@ const translations = {
     "footer.contact": "Contact ↗"
   },
   zh: {
-    "page.title": "Community of Community — 社区保持独立。协作拓展可能。",
+    "page.title": "Community of Community — 结交朋友，共享可能。",
     "page.description": "Community of Community（CoC）是公益性质、非商业的社区协作空间，支持独立社区之间的交流、共同学习与合作。",
     skip: "跳转至主要内容",
     "nav.label": "主导航",
@@ -109,8 +109,8 @@ const translations = {
     "nav.contact": "参与协作 ↗",
     "language.label": "语言切换",
     "hero.eyebrow": "由社区共同参与，服务社区",
-    "hero.titleOne": "社区保持独立。",
-    "hero.titleTwo": "协作拓展可能。",
+    "hero.titleOne": "结交朋友，",
+    "hero.titleTwo": "共享可能。",
     "hero.description": "一个公益性质、非商业的协作空间，为社区创始人、组织者与建设者创造连接，支持经验交流与有共同价值的合作。",
     "hero.action": "介绍您的社区",
     "hero.discussions": "参与交流讨论",

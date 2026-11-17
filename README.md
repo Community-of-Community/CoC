@@ -4,7 +4,7 @@
     <img src="assets/coc-logo.jpg" width="180" height="180" alt="CoC: independent communities connected around a shared campfire">
   </picture>
   <h1>Community of Community</h1>
-  <p><strong>Independent communities. Shared possibilities.</strong></p>
+  <p><strong>Make friends and Shared possibilities.</strong></p>
   <p>Create space. Build connections.<br>Start small. Learn together.</p>
   <p>A public-benefit, non-commercial collaboration space — by communities, for communities.</p>
   <p>
