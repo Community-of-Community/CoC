@@ -8,8 +8,8 @@
   <p>A public-benefit, non-commercial space connecting independent communities.</p>
   <p>
     <a href="https://community-of-community.github.io/"><img src="https://img.shields.io/badge/Website-CoC-00796b?style=flat" alt="Website"></a>
-    <a href="https://github.com/Community-of-Community/Community-of-Community/issues"><img src="https://img.shields.io/badge/Issues-Get%20involved-24292f?style=flat&amp;logo=github" alt="Issues"></a>
-    <a href="https://github.com/Community-of-Community/Community-of-Community/discussions"><img src="https://img.shields.io/badge/Discussions-Connect-24292f?style=flat&amp;logo=github" alt="Discussions"></a>
+    <a href="https://github.com/Community-of-Community/CoC/issues"><img src="https://img.shields.io/badge/Issues-Get%20involved-24292f?style=flat&amp;logo=github" alt="Issues"></a>
+    <a href="https://github.com/Community-of-Community/CoC/discussions"><img src="https://img.shields.io/badge/Discussions-Connect-24292f?style=flat&amp;logo=github" alt="Discussions"></a>
     <a href="mailto:wayneyjin@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-d97757?style=flat" alt="Contact"></a>
   </p>
   <p><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
@@ -43,12 +43,8 @@ Our Founding Members help create this space for public-benefit collaboration. Ea
 ## Get involved
 
 - **[Website](https://community-of-community.github.io/):** explore CoC and [introduce your community](https://community-of-community.github.io/#collaboration-form).
-- **[Issues](https://github.com/Community-of-Community/Community-of-Community/issues):** introduce your community or propose a concrete collaboration using the templates.
-- **[Discussions](https://github.com/Community-of-Community/Community-of-Community/discussions):** ask questions, exchange ideas, and find common interests.
+- **[Issues](https://github.com/Community-of-Community/CoC/issues):** introduce your community or propose a concrete collaboration using the templates.
+- **[Discussions](https://github.com/Community-of-Community/CoC/discussions):** ask questions, exchange ideas, and find common interests.
 - **[Contact](mailto:wayneyjin@gmail.com):** email us at wayneyjin@gmail.com; WeChat is available on request.
 
 Issues and Discussions are public. Use email or the website form for personal contact details, and do not share confidential information. Respect each other's time, consent, attribution, and boundaries.
-
----
-
-**Organization:** hosted under [`Community-of-Community`](https://github.com/Community-of-Community), with this repository as the introduction hub and [`Community-of-Community.github.io`](https://github.com/Community-of-Community/Community-of-Community.github.io) as the project website — following the [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM website](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io) layout.

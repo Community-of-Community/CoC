@@ -8,8 +8,8 @@
   <p>连接独立社区的公益、非商业协作空间。</p>
   <p>
     <a href="https://community-of-community.github.io/"><img src="https://img.shields.io/badge/Website-CoC-00796b?style=flat" alt="Website"></a>
-    <a href="https://github.com/Community-of-Community/Community-of-Community/issues"><img src="https://img.shields.io/badge/Issues-Get%20involved-24292f?style=flat&amp;logo=github" alt="Issues"></a>
-    <a href="https://github.com/Community-of-Community/Community-of-Community/discussions"><img src="https://img.shields.io/badge/Discussions-Connect-24292f?style=flat&amp;logo=github" alt="Discussions"></a>
+    <a href="https://github.com/Community-of-Community/CoC/issues"><img src="https://img.shields.io/badge/Issues-Get%20involved-24292f?style=flat&amp;logo=github" alt="Issues"></a>
+    <a href="https://github.com/Community-of-Community/CoC/discussions"><img src="https://img.shields.io/badge/Discussions-Connect-24292f?style=flat&amp;logo=github" alt="Discussions"></a>
     <a href="mailto:wayneyjin@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-d97757?style=flat" alt="Contact"></a>
   </p>
   <p><a href="README.md">English</a> · <strong>简体中文</strong></p>
@@ -43,12 +43,8 @@
 ## 参与 / 联系
 
 - **[Website](https://community-of-community.github.io/)：** 了解 CoC，或[介绍您的社区](https://community-of-community.github.io/#collaboration-form)。
-- **[Issues](https://github.com/Community-of-Community/Community-of-Community/issues)：** 使用模板介绍社区，或提出具体合作建议。
-- **[Discussions](https://github.com/Community-of-Community/Community-of-Community/discussions)：** 提问、交流想法，寻找共同关注的方向。
+- **[Issues](https://github.com/Community-of-Community/CoC/issues)：** 使用模板介绍社区，或提出具体合作建议。
+- **[Discussions](https://github.com/Community-of-Community/CoC/discussions)：** 提问、交流想法，寻找共同关注的方向。
 - **[Contact](mailto:wayneyjin@gmail.com)：** 邮件联系 wayneyjin@gmail.com；微信联系方式可按需提供。
 
 Issues 与 Discussions 为公开内容。个人联系方式请通过邮箱或网站表单提供，请勿分享机密信息。尊重彼此的时间、意愿、署名与边界。
-
----
-
-**组织：** 现由 [`Community-of-Community`](https://github.com/Community-of-Community) 托管；本仓库为简介入口，网站仓为 [`Community-of-Community.github.io`](https://github.com/Community-of-Community/Community-of-Community.github.io)，结构对齐 [OpenWAM](https://github.com/OpenWAM-Official/OpenWAM) / [OpenWAM 网站仓](https://github.com/OpenWAM-Official/OpenWAM-Official.github.io)。
